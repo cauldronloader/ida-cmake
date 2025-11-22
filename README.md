@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> This is a fork with no plans of upstreaming changes. The original repo can be found at [allthingsida/ida-cmake](https://github.com/allthingsida/ida-cmake).
+> 
+> Notable changes made:
+> - Removed AI agent support.
+> - Added Cmake FetchContent template.
+
 # ida-cmake - CMake Build System for the IDA SDK
 
 CMake build system for developing IDA Pro addons (plugins, loaders, processor modules and standalone idalib apps) using the IDA SDK.
