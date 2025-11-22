@@ -223,6 +223,3 @@ else()
 endif()
 set(idasdk_INCLUDE_DIRS "${IDASDK}/include")
 set(idasdk_LIBRARY_DIRS "${IDASDK}/lib")
-
-# Include agent installation functionality
-include(${CMAKE_CURRENT_LIST_DIR}/cmake/agent.cmake)

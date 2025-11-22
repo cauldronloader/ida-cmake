@@ -310,29 +310,6 @@ cmake -B build
 cmake --build build
 ```
 
-## AI/Claude Agent Support
-
-ida-cmake includes built-in support for AI-assisted development with Claude. When starting a new project from a template or adding to an existing project:
-
-```bash
-# After configuring your project
-cmake -B build
-
-# Install the ida-cmake agent and CLAUDE.md to your project
-cmake --build build --target install_idacmake_agent
-```
-
-This will:
-- Install `.claude/agents/ida-cmake.md` - Specialized agent for IDA SDK builds
-- Create `CLAUDE.md` - Project context file with your addon name
-- Enable AI assistance for build configuration, troubleshooting, and SDK usage
-
-The agent provides expertise in:
-- CMake configuration for IDA addons
-- Platform-specific build issues
-- IDA SDK API usage and examples
-- Debugging setup for VS Code and Visual Studio
-
 ## Platform-Specific Notes
 
 ### macOS Universal Binaries

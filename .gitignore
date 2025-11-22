@@ -1,6 +1,5 @@
 .DS_Store
 build*/
 .vs/
-.claude/settings.local.json
 templates/**/.vscode/
 _wks/
